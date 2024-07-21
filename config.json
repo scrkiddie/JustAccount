@@ -1,0 +1,19 @@
+{
+  "directories": {
+    "profile_pictures": "./upload"
+  },
+  "jwt": {
+    "secret": "JWT_SECRET",
+    "exp" : 24
+  },
+  "web": {
+    "port": 3000
+  },
+  "database": {
+    "username": "postgres",
+    "password": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "name": "account"
+  }
+}
